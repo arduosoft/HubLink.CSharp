@@ -30,3 +30,6 @@ You can find documentation [here](https://github.com/arduosoft/HubLink/wiki)
 [Download it !](https://github.com/arduosoft/HubLink/releases)
 
 
+## Off Topic: where you found the "download count badge"?
+The download badge [![Downloads](http://github-analytics.apphb.com/badges/RepositoryDownloads/51643460.svg)](http//github-analytics.apphb.com/Stats) is part of "GitHub Analytics" one small application that give statistic about your github profile.
+[Please try this also and let me know what you think about! ]( http//github-analytics.apphb.com/Stats)
