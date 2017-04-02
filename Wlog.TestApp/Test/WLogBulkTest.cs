@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Wlog.TestApp.Test
+namespace HubLink.TestApp.Test
 {
     public class WLogBulkTest : TestInstance
     {
-        static Logger logger = LogManager.GetLogger("wlog.loggerWithBuffer");
+        static Logger logger = LogManager.GetLogger("HubLink.loggerWithBuffer");
 
         public override void Execute()
         {

@@ -1,6 +1,6 @@
 ﻿//******************************************************************************
-// <copyright file="license.md" company="Wlog project  (https://github.com/arduosoft/wlog)">
-// Copyright (c) 2016 Wlog project  (https://github.com/arduosoft/wlog)
+// <copyright file="license.md" company="Wlog project  (https://github.com/arduosoft/HubLink.CSharp)">
+// Copyright (c) 2016 Wlog project  (https://github.com/arduosoft/HubLink.CSharp)
 // Wlog project is released under LGPL terms, see license.md file.
 // </copyright>
 // <author>Daniele Fontani, Emanuele Bucaelli</author>
@@ -17,7 +17,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("NLog.WebLog")]
 [assembly: AssemblyDescription("NLog implementation of NLOG logger")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Arduosoft - https://github.com/arduosoft/wlog")]
+[assembly: AssemblyCompany("Arduosoft - https://github.com/arduosoft/HubLink.CSharp")]
 [assembly: AssemblyProduct("NLog.WebLog")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]

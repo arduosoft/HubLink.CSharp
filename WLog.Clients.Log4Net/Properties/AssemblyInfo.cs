@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Le informazioni generali relative a un assembly sono controllate dal seguente 
 // set di attributi. Modificare i valori di questi attributi per modificare le informazioni
 // associate a un assembly.
-[assembly: AssemblyTitle("WLog.Clients.Log4Net")]
+[assembly: AssemblyTitle("HubLink.Clients.Log4Net")]
 [assembly: AssemblyDescription("Log4net implementation of WLOG logger")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Arduosoft - https://github.com/arduosoft/wlog")]
-[assembly: AssemblyProduct("WLog.Clients.Log4Net")]
+[assembly: AssemblyCompany("Arduosoft - https://github.com/arduosoft/HubLink.CSharp")]
+[assembly: AssemblyProduct("HubLink.Clients.Log4Net")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

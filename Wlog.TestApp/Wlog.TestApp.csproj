@@ -7,8 +7,8 @@
     <ProjectGuid>{176B4309-6EDF-4D6B-9296-A853181EB923}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Wlog.TestApp</RootNamespace>
-    <AssemblyName>Wlog.TestApp</AssemblyName>
+    <RootNamespace>HubLink.TestApp</RootNamespace>
+    <AssemblyName>HubLink.TestApp</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
@@ -48,9 +48,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="NLog">
       <HintPath>..\packages\NLog.4.2.0\lib\net45\NLog.dll</HintPath>
@@ -83,12 +87,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WLog.Loggers\Wlog.Loggers.csproj">
-      <Project>{96b4c016-6835-4c7b-a9d0-c5bbece53ae7}</Project>
-      <Name>Wlog.Loggers</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.5.2 %28x86 e x64%29</ProductName>
@@ -99,6 +97,24 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WLog.Clients.Log4Net\Wlog.Clients.Log4Net.csproj">
+      <Project>{3f2b62ed-a3b2-4137-9033-266be27d8d1d}</Project>
+      <Name>Wlog.Clients.Log4Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WLog.Clients.NLog\Wlog.Clients.NLog.csproj">
+      <Project>{96b4c016-6835-4c7b-a9d0-c5bbece53ae7}</Project>
+      <Name>Wlog.Clients.NLog</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wlog.Clients\Wlog.Clients.csproj">
+      <Project>{c3f67dfe-914a-4852-9eae-82b401ab70cb}</Project>
+      <Name>Wlog.Clients</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WLog.Loggers\Wlog.Loggers.csproj">
+      <Project>{268fc8c1-f3a6-45bf-930e-64a09e3b231b}</Project>
+      <Name>Wlog.Loggers</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

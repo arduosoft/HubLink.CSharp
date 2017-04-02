@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Wlog.TestApp.Test
+namespace HubLink.TestApp.Test
 {
     public class FileTest:TestInstance
     {

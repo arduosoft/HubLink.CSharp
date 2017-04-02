@@ -20,8 +20,8 @@
 
 
     <!--<iconUrl></iconUrl>-->
-    <projectUrl>https://github.com/arduosoft/wlog</projectUrl>
-    <licenseUrl>https://github.com/arduosoft/wlog/blob/master/license.md</licenseUrl>
+    <projectUrl>https://github.com/arduosoft/HubLink.CSharp</projectUrl>
+    <licenseUrl>https://github.com/arduosoft/HubLink.CSharp/blob/master/license.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 
     <summary>This library allow you to send logs to wlog server using NLOG framework. See log4net version for Nlog logger.</summary>

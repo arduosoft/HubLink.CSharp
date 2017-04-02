@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Wlog.TestApp.Test
+namespace HubLink.TestApp.Test
 {
     public class WlogTest : TestInstance
     {
-        static Logger logger = LogManager.GetLogger("wlog.logger");
+        static Logger logger = LogManager.GetLogger("HubLink.logger");
 
         public override void Execute()
         {

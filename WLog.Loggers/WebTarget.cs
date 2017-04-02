@@ -51,8 +51,10 @@ namespace NLog.WebLog
                 entry.SourceDate = DateTime.Now;
                 entry.ApplicationKey = ApplicationKey;
                 entry.Level = logEvent.Level.ToString();
+               
+               
 
-                DoRequest(Destination, JsonConvert.SerializeObject(entry));
+                DoRequest(Destination, JsonConvert.SerializeObject(new LogMessage[] {entry }));
              
             }
 

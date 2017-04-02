@@ -6,10 +6,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Wlog.Clients.Classes;
-using Wlog.Clients.Helpers;
+using HubLink.Clients.Classes;
+using HubLink.Clients.Helpers;
 
-namespace Wlog.Clients.Log4Net
+namespace HubLink.Clients.Log4Net
 {
     public class WebAppender : AppenderSkeleton
     {

@@ -1,6 +1,6 @@
 ﻿//******************************************************************************
-// <copyright file="license.md" company="Wlog project  (https://github.com/arduosoft/wlog)">
-// Copyright (c) 2016 Wlog project  (https://github.com/arduosoft/wlog)
+// <copyright file="license.md" company="Wlog project  (https://github.com/arduosoft/HubLink.CSharp)">
+// Copyright (c) 2016 Wlog project  (https://github.com/arduosoft/HubLink.CSharp)
 // Wlog project is released under LGPL terms, see license.md file.
 // </copyright>
 // <author>Daniele Fontani, Emanuele Bucaelli</author>
@@ -10,10 +10,10 @@ using Newtonsoft.Json;
 using NLog.Config;
 using NLog.Targets;
 using System;
-using Wlog.Clients.Classes;
-using Wlog.Clients.Helpers;
+using HubLink.Clients.Classes;
+using HubLink.Clients.Helpers;
 
-namespace NLog.Wlog.Clients
+namespace NLog.HubLink.Clients
 {
     [Target("WebTarget")]
     public class WebTarget : TargetWithLayout

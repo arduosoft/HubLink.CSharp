@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Wlog.Clients.Classes
+namespace HubLink.Clients.Classes
 {
     public class LogMessage
     {
