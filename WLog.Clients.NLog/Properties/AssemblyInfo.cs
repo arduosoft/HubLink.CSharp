@@ -14,11 +14,11 @@ using System.Runtime.InteropServices;
 // Le informazioni generali relative a un assembly sono controllate dal seguente 
 // set di attributi. Per modificare le informazioni associate a un assembly
 // occorre quindi modificare i valori di questi attributi.
-[assembly: AssemblyTitle("NLog.WebLog")]
+[assembly: AssemblyTitle("HubLink.Clients.NLog")]
 [assembly: AssemblyDescription("NLog implementation of NLOG logger")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Arduosoft - https://github.com/arduosoft/HubLink.CSharp")]
-[assembly: AssemblyProduct("NLog.WebLog")]
+[assembly: AssemblyProduct("HubLink.Clients.NLog")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
