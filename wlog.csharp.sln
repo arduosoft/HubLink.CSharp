@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wlog.Clients.Log4Net", "WLo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wlog.Clients.NLog", "WLog.Clients.NLog\Wlog.Clients.NLog.csproj", "{96B4C016-6835-4C7B-A9D0-C5BBECE53AE7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wlog.Loggers", "WLog.Loggers\Wlog.Loggers.csproj", "{268FC8C1-F3A6-45BF-930E-64A09E3B231B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wlog.TestApp", "Wlog.TestApp\Wlog.TestApp.csproj", "{176B4309-6EDF-4D6B-9296-A853181EB923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HubLink.NugetTests", "HubLink.NugetTests\HubLink.NugetTests.csproj", "{E084CB57-523F-44D7-9876-3073D7B6E705}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,18 +38,18 @@ Global
 		{96B4C016-6835-4C7B-A9D0-C5BBECE53AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96B4C016-6835-4C7B-A9D0-C5BBECE53AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96B4C016-6835-4C7B-A9D0-C5BBECE53AE7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{268FC8C1-F3A6-45BF-930E-64A09E3B231B}.AppHarbor|Any CPU.ActiveCfg = Release|Any CPU
-		{268FC8C1-F3A6-45BF-930E-64A09E3B231B}.AppHarbor|Any CPU.Build.0 = Release|Any CPU
-		{268FC8C1-F3A6-45BF-930E-64A09E3B231B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{268FC8C1-F3A6-45BF-930E-64A09E3B231B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{268FC8C1-F3A6-45BF-930E-64A09E3B231B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{268FC8C1-F3A6-45BF-930E-64A09E3B231B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{176B4309-6EDF-4D6B-9296-A853181EB923}.AppHarbor|Any CPU.ActiveCfg = Release|Any CPU
 		{176B4309-6EDF-4D6B-9296-A853181EB923}.AppHarbor|Any CPU.Build.0 = Release|Any CPU
 		{176B4309-6EDF-4D6B-9296-A853181EB923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{176B4309-6EDF-4D6B-9296-A853181EB923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{176B4309-6EDF-4D6B-9296-A853181EB923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{176B4309-6EDF-4D6B-9296-A853181EB923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E084CB57-523F-44D7-9876-3073D7B6E705}.AppHarbor|Any CPU.ActiveCfg = Release|Any CPU
+		{E084CB57-523F-44D7-9876-3073D7B6E705}.AppHarbor|Any CPU.Build.0 = Release|Any CPU
+		{E084CB57-523F-44D7-9876-3073D7B6E705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E084CB57-523F-44D7-9876-3073D7B6E705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E084CB57-523F-44D7-9876-3073D7B6E705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E084CB57-523F-44D7-9876-3073D7B6E705}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

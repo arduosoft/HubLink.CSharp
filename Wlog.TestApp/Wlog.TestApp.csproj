@@ -99,6 +99,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\WLog.Clients.Log4Net\Wlog.Clients.Log4Net.csproj">
       <Project>{3f2b62ed-a3b2-4137-9033-266be27d8d1d}</Project>
       <Name>Wlog.Clients.Log4Net</Name>
@@ -110,10 +113,6 @@
     <ProjectReference Include="..\Wlog.Clients\Wlog.Clients.csproj">
       <Project>{c3f67dfe-914a-4852-9eae-82b401ab70cb}</Project>
       <Name>Wlog.Clients</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\WLog.Loggers\Wlog.Loggers.csproj">
-      <Project>{268fc8c1-f3a6-45bf-930e-64a09e3b231b}</Project>
-      <Name>Wlog.Loggers</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
