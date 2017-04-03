@@ -24,14 +24,14 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 
 
-    <summary>This library allow you to send logs to wlog server using log4net framework. See Nlog version for Nlog logger.</summary>
+    <summary>$description$.This library allow you to send logs to wlog server using log4net framework. See Nlog version for Nlog logger.</summary>
     <releaseNotes></releaseNotes>
 
 		<!--
 		For the '$description$' replacement token to work, the 'AssemblyDescription'
 		attribute must be specified in AssemblyInfo.cs
 		-->
-		<description>$description$</description>
+		<description>Log4Net plugin for HubLink server. This library add Log4Net appender into your application so that can be configured to send logs to an HubLink server. This library include Log4Net assembly dependence and can be used thogether with standard logger, like file system one. This can be useful for keeping local trace or debug info and send remotely only most relevant infos.</description>
 		<tags></tags>
 	</metadata>
 </package>

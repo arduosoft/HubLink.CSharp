@@ -25,7 +25,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
 
 		
-		<summary>This release contains core features that connects your app to wlog server.</summary>
+		<summary>$description$.This release contains core features that connects your app to wlog server.</summary>
 		<releaseNotes></releaseNotes>
 		
 
@@ -33,7 +33,7 @@
 		For the '$description$' replacement token to work, the 'AssemblyDescription'
 		attribute must be specified in AssemblyInfo.cs
 		-->
-		<description>$description$</description>
+		<description><![CDATA[HubLink Client library allow to connect to an HubLink server. This will add to your application the power to consume lot of services through HubLink Api. In example you can forward all your log to a remote server, consume a key pair dictionary or translate your app. All of these feature comes out of the box with the library and are ready to use, when you'll need you just have to enable.]]></description>
 		<tags></tags>
     
 	</metadata>
