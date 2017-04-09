@@ -18,6 +18,18 @@ About logging we provide two alternative for .NET application:
     
 To avoid unusegful references we manage two different nuget packages, so you can add just what you need.
 
+### HubLink Remote Dictionary (Key Pair storage)
+This feature is useful to manage shared configuration across serve or to save remotely keypair data like session or similar. The great thing is that inside C# library it is abstracted as a standard .NET dictionary.
+
+```csharp
+    var publicKey = new Guid("8C075ED0-45A7-495A-8E09-3A98FD6E8248");//Or get from configuration!
+    RemoteDictionary rmd = new RemoteDictionary(publicKey);
+    var value=rmd["myKey"];
+    //Or
+    rmd.TryGetValue("myKeyMaybeNotFound", out value);
+```
+
+
 ### Documentation
 
 You can find documentation on the [wiki](https://github.com/arduosoft/HubLink.CSharp/wiki)
