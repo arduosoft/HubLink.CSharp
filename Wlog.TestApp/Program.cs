@@ -8,17 +8,25 @@ using System.Threading;
 using System.Threading.Tasks;
 using HubLink.TestApp.Test;
 using log4net;
+using HubLink.Clients.Classes;
 
 namespace HubLink.TestApp
 {
     class Program
     {
-        static Logger logger = NLog.LogManager.GetCurrentClassLogger();
+       // static Logger logger = NLog.LogManager.GetCurrentClassLogger();
         static void Main(string[] args)
         {
             try
             {
                 log4net.Config.XmlConfigurator.Configure();
+
+                RemoteDictionary rmd = new RemoteDictionary(new Guid("8C075ED0-45A7-495A-8E09-3A98FD6E8248"));
+
+                Console.Write(rmd["test"]);
+                Console.Write(rmd["prova"]);
+                Console.Write(rmd["prova"]);
+
 
                 Console.WriteLine("Making a single call to service to check availability...");
                 //Manual call to log service to test plain performance
